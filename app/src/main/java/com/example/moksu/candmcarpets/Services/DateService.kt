@@ -12,7 +12,8 @@ object DateService {
             Category ("Carpets", "carpet"),
             Category("Vinyls", "vinyl"),
             Category("Laminates", "laminate"),
-            Category("Underlay","underlay")
+            Category("Camaro Loc", "camaro"),
+            Category("Underlay","underlayy")
 
     )
 
@@ -31,6 +32,10 @@ object DateService {
     )
 
     val underlay = listOf(
+            Product("", "", "")
+    )
+
+    val camaro = listOf(
             Product("", "", "")
     )
 }
